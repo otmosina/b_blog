@@ -1,7 +1,8 @@
 require File.dirname(__FILE__) + '/../spec_helper'
 
 describe PostsController do
-  fixtures :all
+  #fixtures :all
+  fixtures :posts
   render_views
 
   it "index action should render index template" do
